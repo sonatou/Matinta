@@ -405,11 +405,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6598815579406187026, guid: 18ddb545287c546e19cc77dc9fbb2189, type: 3}
       propertyPath: m_KeyboardXTranslateSpeed
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 6598815579406187026, guid: 18ddb545287c546e19cc77dc9fbb2189, type: 3}
       propertyPath: m_KeyboardZTranslateSpeed
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 6598815579406187027, guid: 18ddb545287c546e19cc77dc9fbb2189, type: 3}
       propertyPath: m_LocalPosition.x
@@ -454,6 +454,10 @@ PrefabInstance:
     - target: {fileID: 6598815579406187037, guid: 18ddb545287c546e19cc77dc9fbb2189, type: 3}
       propertyPath: m_Name
       value: XR Device Simulator
+      objectReference: {fileID: 0}
+    - target: {fileID: 6598815579406187037, guid: 18ddb545287c546e19cc77dc9fbb2189, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2236,10 +2240,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   xrOrigin: {fileID: 8782996637434274022}
-  flightAction: {fileID: 0}
+  leftTriggerAction: {fileID: 0}
   flightHeight: 6
   ascentSpeed: 20
-  flightSpeed: 6
+  flightSpeed: 4
   flightDuration: 20
   descentSpeed: 10
   groundY: 0
